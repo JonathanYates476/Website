@@ -1,0 +1,114 @@
+/* google fonts website. Brings in a font library */
+/* Shizuru */
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+/* Hamlet size 600 */
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@600&display=swap');
+/* Kanit */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+button {
+    background-color: #2696d6;
+    display: flex;
+    align-items:stretch;
+    justify-content: center;
+    margin: 0 auto;
+    height: 5vh;  }
+body{
+    text-align:center;
+    background-color:rgb(10, 10, 10);}
+#nav {
+    color: crimson;
+    background-color: rgb(131, 131, 131);
+    border:black;
+    border-style: groove;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;}
+#nav a{
+    color: rgb(233, 17, 60);
+    text-decoration:wavy;
+    text-decoration:underline;}
+#nav a:hover{
+    color: aquamarine;}
+.password {
+    display:flex;
+    justify-content: flex-start;}
+.texts{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    font-size:20px;
+    color:white;}
+.pass {
+    display:flex;
+    flex-direction:row;
+    align-items:center;}
+.password2 {
+    display:flex;
+    justify-content: flex-start;}
+/* Below helps keep in border and box model */
+*{
+    box-sizing:border-box;
+    padding:10px;}
+h1 {
+    color: white;
+    font-size:70px;
+    font-family: 'Hamlet';}
+h2 {
+    color: rgb(150, 206, 243);
+    font-size:50px;
+    font-family:'Franklin Gothic Medium';}
+h3 {
+    color: hsl(0, 97%, 60%);
+    font-size:25px;
+    font-family:'Shizuru';}
+h4 {
+        color: hsl(209, 49%, 52%);
+        font-size:25px;
+        font-family:'Arial';}
+h5 {
+    color: rgb(252, 255, 92);
+    font-size:30px;
+    font-family:'kanit';}
+p {
+    color: rgb(248, 245, 244);
+    font-size:30px;}
+a {
+    color: rgb(124, 204, 19);
+    font-size:20px;}
+.resize_image {
+        width:35%;}
+.bang {
+        width:45%;}
+.section1{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    padding-left:10%;
+    background-color: black;}
+
+
+
+
+
+  /* body {
+    background-color: #8d8d8d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 10vh;
+  } */
+
+/* method = publish to github, skill = planning with
+trello and html and css, resources used similar websites for inspiration */
+/* Q3 GDPR and copyright, reword it, if used then reference the source website */
+/* test website with live server, Q5 images actioned with 'alt' attribute */
+/* Q8 upload two screenshots in two browser(chrome, firefox),
+positive/negatives, describe website to a blind person */
+/* if do it with image then use this with a class
+background-repeat:no-repeat; */
